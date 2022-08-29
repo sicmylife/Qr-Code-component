@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@400;500&family=Macondo&family=Mohave:ital,wght@0,700;1,300&family=Montserrat:wght@200;400;700&family=Noto+Sans:wght@400;700&family=Open+Sans:wght@300;700&family=Outfit:wght@400;700&family=Poppins:wght@300;600&family=Readex+Pro:wght@500;700&family=Roboto:wght@300;700&family=Rock+3D&family=Shizuru&display=swap');
+html{
+ 
+    font-family: 'Outfit', sans-serif;;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content:center ;
+   height: 100vh;
+   background-color:hsl(212, 45%, 89%);
+}
+
+.card{
+   background-color: hsl(0, 0%, 100%); 
+   width: 280px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   border-radius: 10px;
+   text-align: center;
+   padding: 10px;
+   /* margin:0 auto; */
+
+}
+
+.card img{
+    width: 270px;
+    border-radius: 10px;
+}
+.card h1 {
+    font-size: 20px;
+    width: 250px;
+    padding-top: 10px;
+} 
+
+.container p {
+    font-size: 13px;
+    width: 230px;
+    color: hsl(204, 2%, 48%);
+}
+
+.attribution{
+    margin-top: 50px;
+    text-align: center;
+    width: 250px;
+}
+
+
+
